@@ -1,0 +1,20 @@
+{
+  "name": "airline-booking-automation",
+  "version": "1.0.0",
+  "description": "Playwright automation tests for airline booking website",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install": "playwright install"
+  },
+  "keywords": ["playwright", "automation", "testing", "airline", "booking"],
+  "author": "Test Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
